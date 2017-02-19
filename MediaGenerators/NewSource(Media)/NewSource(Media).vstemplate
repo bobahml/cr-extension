@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VSTemplate Version="3.0.0" Type="Item" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
+  <TemplateData>
+    <Name>NewSource(Media)</Name>
+    <Description>NewSource(Media)</Description>
+    <Icon>NewSource(Media).ico</Icon>
+    <TemplateID>bb71edc9-7b9d-40d2-a7d6-6f09b84ce0f4</TemplateID>
+    <ProjectType>CSharp</ProjectType>
+    <SortOrder>5</SortOrder>
+    <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>https://www.iguides.ru</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+  </TemplateData>
+
+  <WizardExtension>
+    <Assembly>CrMediaGenerator, Version=1.0.0.0, Culture=Neutral, PublicKeyToken=b64effef3499b6e1</Assembly>
+    <FullClassName>CrMediaGenerator.WizardImplementation</FullClassName>
+  </WizardExtension>
+  
+  <TemplateContent>
+    <References>
+    </References>
+
+    <ProjectItem SubType="Code" TargetFileName="$foldername$\$classnameprefix$MaterialBinder.cs" ReplaceParameters="true">MaterialBinder.cs</ProjectItem>
+    <ProjectItem SubType="Code" TargetFileName="$foldername$\$classnameprefix$BoardParser.cs" ReplaceParameters="true">NewsBoardParser.cs</ProjectItem>
+    <ProjectItem SubType="Code" TargetFileName="$foldername$\$classnameprefix$Installer.cs" ReplaceParameters="true">Installer.cs</ProjectItem>
+    <ProjectItem SubType="Code" TargetFileName="$foldername$\$classnameprefix$SupportedSources.cs" ReplaceParameters="true">SupportedSources.cs</ProjectItem>
+
+    <ProjectItem SubType="Code" TargetFileName="$foldername$\$00_classname$CollectSourceMessage.cs" ReplaceParameters="true">CollectSourceMessages\CollectSourceMessage_00.cs</ProjectItem>
+    <ProjectItem SubType="Code" TargetFileName="$foldername$\$01_classname$CollectSourceMessage.cs" ReplaceParameters="true">CollectSourceMessages\CollectSourceMessage_01.cs</ProjectItem>
+    <ProjectItem SubType="Code" TargetFileName="$foldername$\$02_classname$CollectSourceMessage.cs" ReplaceParameters="true">CollectSourceMessages\CollectSourceMessage_02.cs</ProjectItem>
+    <ProjectItem SubType="Code" TargetFileName="$foldername$\$03_classname$CollectSourceMessage.cs" ReplaceParameters="true">CollectSourceMessages\CollectSourceMessage_03.cs</ProjectItem>
+    <ProjectItem SubType="Code" TargetFileName="$foldername$\$04_classname$CollectSourceMessage.cs" ReplaceParameters="true">CollectSourceMessages\CollectSourceMessage_04.cs</ProjectItem>
+    <ProjectItem SubType="Code" TargetFileName="$foldername$\$05_classname$CollectSourceMessage.cs" ReplaceParameters="true">CollectSourceMessages\CollectSourceMessage_05.cs</ProjectItem>
+    <ProjectItem SubType="Code" TargetFileName="$foldername$\$06_classname$CollectSourceMessage.cs" ReplaceParameters="true">CollectSourceMessages\CollectSourceMessage_06.cs</ProjectItem>
+    <ProjectItem SubType="Code" TargetFileName="$foldername$\$07_classname$CollectSourceMessage.cs" ReplaceParameters="true">CollectSourceMessages\CollectSourceMessage_07.cs</ProjectItem>
+    <ProjectItem SubType="Code" TargetFileName="$foldername$\$08_classname$CollectSourceMessage.cs" ReplaceParameters="true">CollectSourceMessages\CollectSourceMessage_08.cs</ProjectItem>
+    <ProjectItem SubType="Code" TargetFileName="$foldername$\$09_classname$CollectSourceMessage.cs" ReplaceParameters="true">CollectSourceMessages\CollectSourceMessage_09.cs</ProjectItem>
+    <ProjectItem SubType="Code" TargetFileName="$foldername$\$10_classname$CollectSourceMessage.cs" ReplaceParameters="true">CollectSourceMessages\CollectSourceMessage_10.cs</ProjectItem>
+    <ProjectItem SubType="Code" TargetFileName="$foldername$\$11_classname$CollectSourceMessage.cs" ReplaceParameters="true">CollectSourceMessages\CollectSourceMessage_11.cs</ProjectItem>
+    <ProjectItem SubType="Code" TargetFileName="$foldername$\$12_classname$CollectSourceMessage.cs" ReplaceParameters="true">CollectSourceMessages\CollectSourceMessage_12.cs</ProjectItem>
+    <ProjectItem SubType="Code" TargetFileName="$foldername$\$13_classname$CollectSourceMessage.cs" ReplaceParameters="true">CollectSourceMessages\CollectSourceMessage_13.cs</ProjectItem>
+    <ProjectItem SubType="Code" TargetFileName="$foldername$\$14_classname$CollectSourceMessage.cs" ReplaceParameters="true">CollectSourceMessages\CollectSourceMessage_14.cs</ProjectItem>
+    <ProjectItem SubType="Code" TargetFileName="$foldername$\$15_classname$CollectSourceMessage.cs" ReplaceParameters="true">CollectSourceMessages\CollectSourceMessage_15.cs</ProjectItem>
+    <ProjectItem SubType="Code" TargetFileName="$foldername$\$16_classname$CollectSourceMessage.cs" ReplaceParameters="true">CollectSourceMessages\CollectSourceMessage_16.cs</ProjectItem>
+    <ProjectItem SubType="Code" TargetFileName="$foldername$\$17_classname$CollectSourceMessage.cs" ReplaceParameters="true">CollectSourceMessages\CollectSourceMessage_17.cs</ProjectItem>
+    <ProjectItem SubType="Code" TargetFileName="$foldername$\$18_classname$CollectSourceMessage.cs" ReplaceParameters="true">CollectSourceMessages\CollectSourceMessage_18.cs</ProjectItem>
+    <ProjectItem SubType="Code" TargetFileName="$foldername$\$19_classname$CollectSourceMessage.cs" ReplaceParameters="true">CollectSourceMessages\CollectSourceMessage_19.cs</ProjectItem>
+    <ProjectItem SubType="Code" TargetFileName="$foldername$\$20_classname$CollectSourceMessage.cs" ReplaceParameters="true">CollectSourceMessages\CollectSourceMessage_20.cs</ProjectItem>
+    <ProjectItem SubType="Code" TargetFileName="$foldername$\$21_classname$CollectSourceMessage.cs" ReplaceParameters="true">CollectSourceMessages\CollectSourceMessage_21.cs</ProjectItem>
+    <ProjectItem SubType="Code" TargetFileName="$foldername$\$22_classname$CollectSourceMessage.cs" ReplaceParameters="true">CollectSourceMessages\CollectSourceMessage_22.cs</ProjectItem>
+    <ProjectItem SubType="Code" TargetFileName="$foldername$\$23_classname$CollectSourceMessage.cs" ReplaceParameters="true">CollectSourceMessages\CollectSourceMessage_23.cs</ProjectItem>
+    <ProjectItem SubType="Code" TargetFileName="$foldername$\$24_classname$CollectSourceMessage.cs" ReplaceParameters="true">CollectSourceMessages\CollectSourceMessage_24.cs</ProjectItem>
+    <ProjectItem SubType="Code" TargetFileName="$foldername$\$25_classname$CollectSourceMessage.cs" ReplaceParameters="true">CollectSourceMessages\CollectSourceMessage_25.cs</ProjectItem>
+    <ProjectItem SubType="Code" TargetFileName="$foldername$\$26_classname$CollectSourceMessage.cs" ReplaceParameters="true">CollectSourceMessages\CollectSourceMessage_26.cs</ProjectItem>
+    <ProjectItem SubType="Code" TargetFileName="$foldername$\$27_classname$CollectSourceMessage.cs" ReplaceParameters="true">CollectSourceMessages\CollectSourceMessage_27.cs</ProjectItem>
+    <ProjectItem SubType="Code" TargetFileName="$foldername$\$28_classname$CollectSourceMessage.cs" ReplaceParameters="true">CollectSourceMessages\CollectSourceMessage_28.cs</ProjectItem>
+    <ProjectItem SubType="Code" TargetFileName="$foldername$\$29_classname$CollectSourceMessage.cs" ReplaceParameters="true">CollectSourceMessages\CollectSourceMessage_29.cs</ProjectItem>
+    <ProjectItem SubType="Code" TargetFileName="$foldername$\$30_classname$CollectSourceMessage.cs" ReplaceParameters="true">CollectSourceMessages\CollectSourceMessage_30.cs</ProjectItem>
+    <ProjectItem SubType="Code" TargetFileName="$foldername$\$31_classname$CollectSourceMessage.cs" ReplaceParameters="true">CollectSourceMessages\CollectSourceMessage_31.cs</ProjectItem>
+    <ProjectItem SubType="Code" TargetFileName="$foldername$\$32_classname$CollectSourceMessage.cs" ReplaceParameters="true">CollectSourceMessages\CollectSourceMessage_32.cs</ProjectItem>
+    <ProjectItem SubType="Code" TargetFileName="$foldername$\$33_classname$CollectSourceMessage.cs" ReplaceParameters="true">CollectSourceMessages\CollectSourceMessage_33.cs</ProjectItem>
+    <ProjectItem SubType="Code" TargetFileName="$foldername$\$34_classname$CollectSourceMessage.cs" ReplaceParameters="true">CollectSourceMessages\CollectSourceMessage_34.cs</ProjectItem>
+    <ProjectItem SubType="Code" TargetFileName="$foldername$\$35_classname$CollectSourceMessage.cs" ReplaceParameters="true">CollectSourceMessages\CollectSourceMessage_35.cs</ProjectItem>
+    <ProjectItem SubType="Code" TargetFileName="$foldername$\$36_classname$CollectSourceMessage.cs" ReplaceParameters="true">CollectSourceMessages\CollectSourceMessage_36.cs</ProjectItem>
+    <ProjectItem SubType="Code" TargetFileName="$foldername$\$37_classname$CollectSourceMessage.cs" ReplaceParameters="true">CollectSourceMessages\CollectSourceMessage_37.cs</ProjectItem>
+    <ProjectItem SubType="Code" TargetFileName="$foldername$\$38_classname$CollectSourceMessage.cs" ReplaceParameters="true">CollectSourceMessages\CollectSourceMessage_38.cs</ProjectItem>
+    <ProjectItem SubType="Code" TargetFileName="$foldername$\$39_classname$CollectSourceMessage.cs" ReplaceParameters="true">CollectSourceMessages\CollectSourceMessage_39.cs</ProjectItem>
+    <ProjectItem SubType="Code" TargetFileName="$foldername$\$40_classname$CollectSourceMessage.cs" ReplaceParameters="true">CollectSourceMessages\CollectSourceMessage_40.cs</ProjectItem>
+
+
+
+  </TemplateContent>
+</VSTemplate>
