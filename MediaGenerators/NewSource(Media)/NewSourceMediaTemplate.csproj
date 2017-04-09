@@ -115,7 +115,7 @@
     <None Include="CollectSourceMessages\CollectSourceMessage_39.cs" />
     <None Include="CollectSourceMessages\CollectSourceMessage_40.cs" />
     <None Include="CollectSourceMessages\CollectSourceMessage_01.cs" />
-    <None Include="SupportedSources.cs" />
+    <None Include="SupportedSource.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

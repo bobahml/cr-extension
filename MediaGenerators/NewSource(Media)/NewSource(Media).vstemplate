@@ -25,7 +25,7 @@
     <ProjectItem SubType="Code" TargetFileName="$foldername$\$classnameprefix$MaterialBinder.cs" ReplaceParameters="true">MaterialBinder.cs</ProjectItem>
     <ProjectItem SubType="Code" TargetFileName="$foldername$\$classnameprefix$BoardParser.cs" ReplaceParameters="true">NewsBoardParser.cs</ProjectItem>
     <ProjectItem SubType="Code" TargetFileName="$foldername$\$classnameprefix$Installer.cs" ReplaceParameters="true">Installer.cs</ProjectItem>
-    <ProjectItem SubType="Code" TargetFileName="$foldername$\$classnameprefix$SupportedSources.cs" ReplaceParameters="true">SupportedSources.cs</ProjectItem>
+    <ProjectItem SubType="Code" TargetFileName="$foldername$\$classnameprefix$SupportedSource.cs" ReplaceParameters="true">SupportedSource.cs</ProjectItem>
 
     <ProjectItem SubType="Code" TargetFileName="$foldername$\$00_classname$CollectSourceMessage.cs" ReplaceParameters="true">CollectSourceMessages\CollectSourceMessage_00.cs</ProjectItem>
     <ProjectItem SubType="Code" TargetFileName="$foldername$\$01_classname$CollectSourceMessage.cs" ReplaceParameters="true">CollectSourceMessages\CollectSourceMessage_01.cs</ProjectItem>
