@@ -16,7 +16,7 @@ namespace $rootnamespace$.$foldername$
 
 			Material material = new Material
 			{
-				SourceName = $classnameprefix$SupportedSources.SourceName
+				SourceName = $classnameprefix$SupportedSource.SourceName
 			};
 
 			BindLinks(document, material);

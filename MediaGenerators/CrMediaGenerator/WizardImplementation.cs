@@ -117,7 +117,7 @@ namespace CrMediaGenerator
 			return
 	$@"internal sealed class {section.ClassName}CollectSourceMessage : CollectSourceMessage 
 	{{
-		public override Uri Source => {classnameprefix}SupportedSources.{section.ShortClassName}.Url;
+		public override Uri Source => {classnameprefix}SupportedSource.{section.ShortClassName}.Url;
 	}}";
 		}
 
@@ -143,19 +143,19 @@ namespace CrMediaGenerator
 					Component
 						.For<IMaterialBinder>()
 						.ImplementedBy<{classnameprefix}MaterialBinder>()
-						.AsMaterialBinderFor({classnameprefix}SupportedSources.{section.ShortClassName})
+						.AsMaterialBinderFor({classnameprefix}SupportedSource.{section.ShortClassName})
 						.LifeStyle.Singleton,
 
 					Component
 						.For<INewsBoardParser>()
 						.ImplementedBy<{classnameprefix}BoardParser>()
-						.AsNewsBoardParserFor({classnameprefix}SupportedSources.{section.ShortClassName})
+						.AsNewsBoardParserFor({classnameprefix}SupportedSource.{section.ShortClassName})
 						.LifeStyle.Singleton,
 
 					Component
 						.For<ISagaControl>()
 						.ImplementedBy<SagaControl<{section.ClassName}CollectSourceMessage>>()
-						.AsSagaControlFor({classnameprefix}SupportedSources.{section.ShortClassName})
+						.AsSagaControlFor({classnameprefix}SupportedSource.{section.ShortClassName})
 						.LifeStyle.Singleton";
 		}
 
