@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
   <Metadata>
-    <Identity Id="CrMediaGenerator.bobahml.94c7c3dc-63f8-42f3-a467-92789ae54195" Version="1.0" Language="en-US" Publisher="bobahml" />
+    <Identity Id="CrMediaGenerator.bobahml.94c7c3dc-63f8-42f3-a467-92789ae54195" Version="1.0.1" Language="en-US" Publisher="bobahml" />
     <DisplayName>CrMediaGenerator</DisplayName>
     <Description>CrMediaGenerator VSIX Project.</Description>
   </Metadata>
